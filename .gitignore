@@ -16,6 +16,6 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Composer / Node (если появятся)
-vendor/
-node_modules/
+# Composer / Node только в корне репозитория (не трогаем vendor внутри плагинов)
+/vendor/
+/node_modules/
