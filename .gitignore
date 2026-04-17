@@ -1,0 +1,20 @@
+# Secrets — не публиковать
+wp-config.php
+
+# Загрузки и кэш
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/debug.log
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Composer / Node (если появятся)
+vendor/
+node_modules/
